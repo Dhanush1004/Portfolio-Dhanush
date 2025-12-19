@@ -68,9 +68,10 @@ I enjoy working with modern frontend frameworks, animations, and backend technol
 
 ```
 ## Images of the Page 
+
+<img width="1919" height="934" alt="Screenshot 2025-12-19 234244" src="https://github.com/user-attachments/assets/779cd22a-3b70-47a8-8478-5eaa3e2b42d6" />
 <img width="1919" height="933" alt="Screenshot 2025-12-19 234251" src="https://github.com/user-attachments/assets/4ebe9c41-e8fe-4c0b-8e88-59911bc3ec22" />
 <img width="1918" height="928" alt="Screenshot 2025-12-19 234415" src="https://github.com/user-attachments/assets/39375a33-7be3-4382-909d-1c763906fb91" />
 <img width="1918" height="934" alt="Screenshot 2025-12-19 234425" src="https://github.com/user-attachments/assets/01da0963-644a-42ae-aada-680f8cab7181" />
 <img width="1918" height="936" alt="Screenshot 2025-12-19 234434" src="https://github.com/user-attachments/assets/a724d045-6442-4936-8793-34a9f040d2a1" />
-<img width="1919" height="934" alt="Screenshot 2025-12-19 234244" src="https://github.com/user-attachments/assets/779cd22a-3b70-47a8-8478-5eaa3e2b42d6" />
 
