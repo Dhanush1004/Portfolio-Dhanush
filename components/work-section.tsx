@@ -16,7 +16,7 @@ const experiments = [
     span: "col-span-2 row-span-2",
   },
   {
-    title: "NodeToy Clone",
+    title: "BG-ANIMATIONS FOR WEB",
     medium: "Creative Coding",
     description:
       "Interactive node-based editor with animated connections and custom visual effects in React.",
