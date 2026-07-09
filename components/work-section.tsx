@@ -9,46 +9,60 @@ gsap.registerPlugin(ScrollTrigger)
 
 const experiments = [
   {
-    title: "Animated Portfolio",
-    medium: "Frontend Project",
+    title: "StockMind AI",
+    medium: "AI • Full Stack • 2026",
     description:
-      "High-performance personal portfolio built using Next.js, GSAP, and modern animation techniques.",
-    span: "col-span-2 row-span-2",
+      "AI-powered stock analysis and paper trading platform built with FastAPI, React.js, and MySQL. Combines FinBERT sentiment analysis with technical indicators (RSI, MACD, EMA) to deliver intelligent trading recommendations through a real-time analytics dashboard.",
+    span: "md:col-span-2 md:row-span-2",
   },
   {
-    title: "BG-ANIMATIONS FOR WEB",
-    medium: "Creative Coding",
+    title: "Food Allergy Detection AI",
+    medium: "AI • OCR • NLP • 2025",
     description:
-      "Interactive node-based editor with animated connections and custom visual effects in React.",
-    span: "col-span-1 row-span-1",
+      "AI-driven allergy detection platform that extracts ingredients from food labels using OCR and NLP. Features FastAPI microservices, MongoDB, JWT authentication, and personalized allergy prediction.",
+    span: "md:col-span-1 md:row-span-2",
   },
   {
-    title: "Hotel Booking System",
-    medium: "Full Stack App",
+    title: "AI Diabetes Risk Prediction",
+    medium: "Machine Learning • 2025",
     description:
-      "Room booking system with login, ID verification, availability tracking, and admin controls.",
-    span: "col-span-1 row-span-2",
+      "Healthcare prediction system using Scikit-learn, FastAPI, and Docker. Trained multiple ML models with GridSearchCV and deployed a REST API for real-time diabetes risk prediction.",
+    span: "md:col-span-1 md:row-span-1",
   },
   {
-    title: "Allergy Tracker",
-    medium: "Web Application",
+    title: "Mental Health Chatbot",
+    medium: "NLP • AI • 2024",
     description:
-      "Built scalable Health monitor system with authentication and real-time data visualization.",
-    span: "col-span-1 row-span-1",
+      "Context-aware chatbot developed with Python, NLP, and Scikit-learn. Optimized intent classification, reduced inference latency, and implemented modular architecture for scalable conversational support.",
+    span: "md:col-span-2 md:row-span-1",
   },
   {
     title: "Eye Disease Classification",
-    medium: "ML + Web",
+    medium: "Deep Learning",
     description:
-      "CNN-based eye disease classification project with dataset preprocessing and model evaluation.",
-    span: "col-span-2 row-span-1",
+      "CNN-based retinal disease classification system with image preprocessing, model training, evaluation, and prediction interface for automated eye disease detection.",
+    span: "md:col-span-1 md:row-span-1",
   },
   {
-    title: "Mobile Application",
-    medium: "Learning Project",
+    title: "Bulk Email Sender",
+    medium: "Full Stack",
     description:
-      "Developed a Simple Mobile Application using android studio.",
-    span: "col-span-1 row-span-1",
+      "Bulk email automation platform supporting Excel uploads, SMTP integration, email templates, delivery tracking, and campaign management.",
+    span: "md:col-span-1 md:row-span-1",
+  },
+  {
+    title: "Hotel Booking System",
+    medium: "Web Application",
+    description:
+      "Full-stack hotel reservation system featuring authentication, room availability tracking, online booking, and administrative management dashboard.",
+    span: "md:col-span-2 md:row-span-1",
+  },
+  {
+    title: "Portfolio Website",
+    medium: "Next.js • GSAP",
+    description:
+      "Premium developer portfolio built with Next.js, TypeScript, Tailwind CSS, and GSAP, featuring smooth animations, responsive design, and optimized performance.",
+    span: "md:col-span-2 md:row-span-1",
   },
 ]
 
