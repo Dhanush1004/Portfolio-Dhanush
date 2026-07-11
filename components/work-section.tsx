@@ -10,59 +10,59 @@ gsap.registerPlugin(ScrollTrigger)
 const experiments = [
   {
     title: "StockMind AI",
-    medium: "AI • Full Stack • 2026",
+    medium: "AI • Full Stack • 2025",
     description:
       "AI-powered stock analysis and paper trading platform built with FastAPI, React.js, and MySQL. Combines FinBERT sentiment analysis with technical indicators (RSI, MACD, EMA) to deliver intelligent trading recommendations through a real-time analytics dashboard.",
-    span: "md:col-span-2 md:row-span-2",
+    span: "col-span-2 row-span-2 md:col-span-2 md:row-span-2",
   },
   {
     title: "Food Allergy Detection AI",
     medium: "AI • OCR • NLP • 2025",
     description:
       "AI-driven allergy detection platform that extracts ingredients from food labels using OCR and NLP. Features FastAPI microservices, MongoDB, JWT authentication, and personalized allergy prediction.",
-    span: "md:col-span-1 md:row-span-2",
+    span: "col-span-1 row-span-1 md:col-span-1 md:row-span-2",
   },
   {
     title: "AI Diabetes Risk Prediction",
     medium: "Machine Learning • 2025",
     description:
       "Healthcare prediction system using Scikit-learn, FastAPI, and Docker. Trained multiple ML models with GridSearchCV and deployed a REST API for real-time diabetes risk prediction.",
-    span: "md:col-span-1 md:row-span-1",
+    span: "col-span-1 row-span-1 md:col-span-1 md:row-span-1",
   },
   {
     title: "Mental Health Chatbot",
     medium: "NLP • AI • 2024",
     description:
       "Context-aware chatbot developed with Python, NLP, and Scikit-learn. Optimized intent classification, reduced inference latency, and implemented modular architecture for scalable conversational support.",
-    span: "md:col-span-2 md:row-span-1",
+    span: "col-span-2 row-span-1 md:col-span-2 md:row-span-1",
   },
   {
     title: "Eye Disease Classification",
     medium: "Deep Learning",
     description:
       "CNN-based retinal disease classification system with image preprocessing, model training, evaluation, and prediction interface for automated eye disease detection.",
-    span: "md:col-span-1 md:row-span-1",
+    span: "col-span-1 row-span-1 md:col-span-1 md:row-span-1",
   },
   {
     title: "Bulk Email Sender",
     medium: "Full Stack",
     description:
       "Bulk email automation platform supporting Excel uploads, SMTP integration, email templates, delivery tracking, and campaign management.",
-    span: "md:col-span-1 md:row-span-1",
+    span: "col-span-1 row-span-1 md:col-span-1 md:row-span-1",
   },
   {
     title: "Hotel Booking System",
     medium: "Web Application",
     description:
       "Full-stack hotel reservation system featuring authentication, room availability tracking, online booking, and administrative management dashboard.",
-    span: "md:col-span-2 md:row-span-1",
+    span: "col-span-2 row-span-1 md:col-span-2 md:row-span-1",
   },
   {
     title: "Portfolio Website",
     medium: "Next.js • GSAP",
     description:
       "Premium developer portfolio built with Next.js, TypeScript, Tailwind CSS, and GSAP, featuring smooth animations, responsive design, and optimized performance.",
-    span: "md:col-span-2 md:row-span-1",
+    span: "col-span-2 row-span-1 md:col-span-2 md:row-span-1",
   },
 ]
 
@@ -120,16 +120,16 @@ export function WorkSection() {
       <div ref={headerRef} className="mb-16 flex items-end justify-between">
         <div>
           <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">
-  02 / Projects
-</span>
-<h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">
-  SELECTED WORK
-</h2>
+            02 / Projects
+          </span>
+          <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">
+            SELECTED WORK
+          </h2>
         </div>
         <p className="hidden md:block max-w-xs font-mono text-xs text-muted-foreground text-right leading-relaxed">
-  A collection of frontend, full-stack, and learning projects focused on
-  performance, usability, and clean design.
-</p>
+          A collection of AI, full-stack, and machine learning projects focused on
+          innovation, performance, and real-world impact.
+        </p>
       </div>
 
       {/* Asymmetric grid */}
