@@ -14,25 +14,25 @@ export function ExperienceSection() {
 
   const experiences = [
     {
-      number: "01",
-      titleParts: [
-        { text: "APP ", highlight: true },
-        { text: "DEVELOPMENT INTERNSHIP", highlight: false },
-      ],
-      description:
-        "Completed an internship in app development, working on frontend components, API integration, and real-world application features.",
-      align: "left",
-    },
-    {
-      number: "02",
-      titleParts: [
-        { text: "FULL STACK ", highlight: true },
-        { text: "TRAINING", highlight: false },
-      ],
-      description:
-        "Hands-on learning in MERN stack development, building complete applications with authentication, database integration, and deployment basics.",
-      align: "right",
-    },
+  number: "01",
+  titleParts: [
+    { text: "ANDROID APP ", highlight: true },
+    { text: " DEVELOPMENT INTERNSHIP", highlight: false },
+  ],
+  description:
+    "Completed an Android App Development Internship at NSIC (Arjun Vision Tech Solutions) in 2024, developing mobile application features using Java and Android Studio while improving performance, debugging issues, and collaborating with Git and GitHub in an Agile environment.",
+  align: "left",
+},
+{
+  number: "02",
+  titleParts: [
+    { text: "FULL STACK ", highlight: true },
+    { text: " TRAINING", highlight: false },
+  ],
+  description:
+    "Completed Inplant Training at Retech Solutions Pvt. Ltd., Chennai in 2025, building a full-stack Inventory Management System using Django and MySQL with REST APIs, secure authentication, optimized database queries, and GitHub-based collaboration.",
+  align: "right",
+},
     {
       number: "03",
       titleParts: [
@@ -41,6 +41,12 @@ export function ExperienceSection() {
       ],
       description:
         "Completed certifications in Java, Python, SQL, and Web Development to strengthen core programming and software engineering skills.",
+      certificates: [
+        "Applied Data Science — Nov 2024",
+        "Microsoft Azure Associate Engineer — Apr 2024",
+        "Deloitte Data Analytics Job Simulation — Dec 2025",
+        "IBM Java Developer",
+      ],
       align: "left",
     },
   ]
@@ -126,6 +132,20 @@ export function ExperienceSection() {
             <p className="mt-6 max-w-md font-mono text-sm text-muted-foreground leading-relaxed">
               {item.description}
             </p>
+
+            {item.certificates ? (
+              <ul className="mt-5 max-w-md space-y-2">
+                {item.certificates.map((certificate) => (
+                  <li
+                    key={certificate}
+                    className="flex items-center gap-2 font-mono text-sm text-foreground"
+                  >
+                    <span className="text-accent">•</span>
+                    <span>{certificate}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
 
             <div
               className={`mt-8 h-[1px] bg-border w-24 md:w-48 ${

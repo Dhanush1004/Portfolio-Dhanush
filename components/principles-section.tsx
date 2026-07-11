@@ -20,7 +20,7 @@ export function PrinciplesSection() {
       { text: "GRADE", highlight: false },
     ],
     description:
-      "Built a strong academic foundation with focus on mathematics, science, and logical thinking.",
+      "Built a strong academic foundation with focus on mathematics, science, and logical thinking. Achieved 96% in 10th grade.",
     align: "left",
   },
   {
@@ -30,17 +30,17 @@ export function PrinciplesSection() {
       { text: "GRADE", highlight: false },
     ],
     description:
-      "Chose a computer-focused path, developing interest in programming, problem-solving, and technology.",
+      "Chose a computer-focused path, developing interest in programming, problem-solving, and technology. Secured 80% in 12th grade.",
     align: "right",
   },
   {
     number: "03",
     titleParts: [
-      { text: "ENGINEERING ", highlight: false },
-      { text: "COLLEGE", highlight: true },
-    ],
+  { text: "BACHELOR OF ", highlight: false },
+  { text: "TECHNOLOGY", highlight: true },
+],
     description:
-      "Currently a final-year student at Saveetha Engineering College, specializing in software development, full-stack technologies, and practical project building.",
+      "Recent B.Tech Graduate from Saveetha Engineering College, specializing in software development, full-stack technologies, and practical project building. Achieved 8.1 CGPA in college.",
     align: "left",
   },
 ]
@@ -97,7 +97,7 @@ export function PrinciplesSection() {
       </div>
 
       {/* Staggered principles */}
-      <div ref={principlesRef} className="space-y-24 md:space-y-32">
+      <div ref={principlesRef} className="space-y-12 md:space-y-20">
         {principles.map((principle, index) => (
           <article
             key={index}
