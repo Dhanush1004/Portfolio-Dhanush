@@ -9,31 +9,31 @@ gsap.registerPlugin(ScrollTrigger)
 
 const signals = [
   {
-    date: "Core",
-    title: "Frontend Development",
-    note: "React, HTML, CSS, JavaScript, Tailwind CSS, GSAP, responsive and animated UI development.",
-  },
-  {
-    date: "Core",
-    title: "Backend Development",
-    note: "Node.js, REST APIs, authentication, authorization, and server-side logic.",
-  },
-  {
     date: "Strong",
     title: "Programming",
-    note: "Java, Python, data structures and algorithms, problem-solving and clean coding practices.",
+    note: "Java, Python, JavaScript, SQL, Object-Oriented Programming (OOP), Data Structures & Algorithms (DSA), and problem-solving.",
+  },
+  {
+    date: "Core",
+    title: "AI & Machine Learning",
+    note: "Machine Learning, Data Science, EDA, Feature Engineering, Model Evaluation, Cross Validation, GridSearchCV, NLP, LLMs, Prompt Engineering, OCR, Gemini API, Scikit-learn, Pandas, NumPy, Matplotlib, and Seaborn.",
+  },
+  {
+    date: "Core",
+    title: "Full Stack Development",
+    note: "React.js, HTML5, CSS3, FastAPI, RESTful APIs, JWT Authentication, and modern web application development.",
   },
   {
     date: "Working",
     title: "Databases",
-    note: "MongoDB, MySQL, SQL queries, schema design, and CRUD operations.",
+    note: "MySQL, MongoDB, database design, SQL optimization, schema design, and CRUD operations.",
   },
   {
-    date: "Tools",
+    date: "Strong",
     title: "Developer Tools",
-    note: "Git, GitHub, VS Code, Postman, npm, debugging, and version control workflows.",
+    note: "Linux, Bash, Git, GitHub, Docker, Postman, version control, debugging, and collaborative development workflows.",
   },
-]
+];
 
 
 

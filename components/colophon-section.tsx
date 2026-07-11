@@ -128,7 +128,7 @@ export function ColophonSection() {
     </h4>
     <ul className="space-y-2">
       <li className="font-mono text-xs text-foreground/80">Chennai, India</li>
-      <li className="font-mono text-xs text-foreground/80">Open to Remote</li>
+      <li className="font-mono text-xs text-foreground/80">Ready to Relocate</li>
     </ul>
   </div>
 
